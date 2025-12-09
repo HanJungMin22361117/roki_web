@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: Verdana;
+        color: #aaaaaa;
+    }
+    .menu {
+        float:left;
+        width:20%;
+        text-align:center;
+        margin-top: 57px;
+    }
+
+    .menu a {
+        background-color:#e5e5e5;
+        padding:8px;
+        margin-top:7px;
+        display:block;
+        width:100%;
+        color:gray;
+        text-decoration: none;
+    }
+
+    a:link { 
+    color: #0000ff;
+    text-decoration: none;
+    }
+
+    a:visited {
+    color: #00ff00;
+    }
+
+    a:hover {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: underline;
+    }
+
+    a:active {
+    color: #00ffff;
+    }
+
+    .main {
+        float:left;
+        width:60%;
+        padding :0 20px;
+        position: relative; 
+    }
+    
+    .main img {
+        width: calc(100% + 40px);
+        height: auto; 
+        margin-left: -20px;
+        display: block;
+    }
+
+    .right {
+        background-color:#e5e5e5;
+        float:left;
+        width:20%;
+        padding:15px;
+        margin-top: 64px;
+        text-align:center;
+    }
+
+    @media only screen and (max-width:620px) {
+        .menu, .main, .right {
+            width:100%;
+        }
+        .main img {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+    
+    #div0 {
+        overflow: auto;
+    } 
+    #div1 {
+        background-color:#e5e5e5;
+        padding:15px;
+        text-align: center;
+    }
+    #div2 {
+        background-color:#e5e5e5;
+        padding:10px;
+        margin-top:7px;
+        text-align: center;
+    }
+</style>
+<body>
+    
+    <div id="div1">
+        <h1>Welcome to My Website</h1>
+    </div>
+
+    <div id="div0">
+        <div class="menu">
+            <a href="(정14주차)반응형웹.html">타임라인의 오류</a>
+            <a href="(정14주차)반응형웹1.html">다른 거울 속의 나</a>
+            <a href="(정14주차)반응형웹2.html">책임의 굴레</a>
+            <a href="(정14주차)반응형웹3.html">영원한 짐을 지고</a>
+        </div>
+
+        <div class="main">
+            <h3>타임라인의 오류</h3>
+            <img src="타임라인.jpg" alt="메인 컨텐츠 이미지"> 
+        </div>
+
+        <div class="right">
+            <h2>타임라인의 오류</h2>
+            <p>수많은 시간선 중 어벤져스는 테서렉트를 흘리는 실수를 하고 로키는 그 틈을 타 도망치게된다. 이를 본 TVA시간관리국은 로키를 체포한다.</p>
+        </div>
+    </div>
+
+    <div id="div2"> &copy; copyright</div>
+
+
+</body>
+</html>
